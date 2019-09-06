@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body { 
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	font-family: 'Roboto', sans-serif;
+	color:#424242;
+	background-color: #fff;
+	font-size:15px;
+}
+
+a {
+	color: #283277;
+}
+
+a:hover {
+	color: #006AB5;
+}
+
+h1 {
+	font-size: 25px;
+	font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+	font-size:20px;
+	font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+	font-size: 18px;
+	font-family: 'Oswald', sans-serif;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+.site-header {
+	padding: 20px 0 0 0;
+	background-color: #70D3D0;
+	color: #283277;
+}
+
+.right-header p{
+	text-align: right;
+}
+
+.bg-blue {
+	background: #006AB5;
+}
+
+.navbar {
+	padding: 0;
+}
+
+.navbar li {
+	padding: 5px;
+}
+
+.nav-link {
+	color: #fff !important;
+}
+
+.navbar-nav .nav-link {
+	font-family: 'Oswald', sans-serif;
+}
+
+li.active {
+	background-color: #283277;
+}
+
+ul.navbar-nav li:hover {
+	background: #283277 !important;
+}
+
+nav {
+	margin-bottom: 2px !important;
+}
+
+.dropdown-menu a {
+	color: #fff;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+	background: #283277;
+	color: #fff;
+}
+
+.site-latest-products {
+	padding: 20px;
+	background: #F8F8FA;
+}
+
+.heading {
+	padding: 10px 0;
+}
+
+.product {
+	padding: 10px;
+}
+
+.product h2 {
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	padding:10px;
+}
+
+.product img {
+}
+
+.btn-details {
+	padding: 1px 10px
+}
+
+.product a {
+	background: #006AB5;
+	color: #fff;
+}
+
+.product a:hover {
+	background: #283277;
+	color: #fff;
+}
+
+.button-link {
+	display:block;
+	text-align: center;
+}
+
+.btn.focus, .btn:focus {
+	box-shadow: none;
+}
+
+.main-content {
+	padding: 20px;
+	background: url(img/bg.jpg) repeat-x fixed
+}
+
+.heading-center {
+	text-align: center;
+}
+
+/*.main-content {
+	background: url(img/bg.jpg) repeat-x fixed
+}*/
+
+.site-content {
+	max-width: 70%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+.footer-top {
+	background: #006AB5;
+	padding:20px;
+	color: #fff;
+}
+
+.footer_box address a {
+	color: #fff;
+}
+
+.footer_box address span {
+	text-decoration: bold;
+	font-size: 17px;
+}
+
+.footer_box address a:hover {
+	text-decoration: underline;
+}
+
+.footer_box ul {
+	padding-left: 0;
+}
+
+.footer_box ul li {
+	list-style: none;
+}
+
+.footer_box ul li i {
+	margin-right: 5px;
+}
+
+.footer_box ul li a{
+	color: #fff;
+}
+
+.footer-bottom {
+	background: #283277;
+	padding-top: 20px;
+	color: #fff;
+}
+
+.foot-right {
+	text-align: right;
+}
+
+
+
+/* On screens that are 1024px or less, set the background color to blue */
+@media screen and (max-width: 375px) {
+	.right-header {
+		padding-top: 20px;
+	}
+
+	.right-header p{
+		text-align: center;
+	}
+
+	.footer-bottom p{
+		text-align: center;
+	}
+}
